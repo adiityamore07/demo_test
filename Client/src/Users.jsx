@@ -31,9 +31,9 @@ function User() {
                     <tbody>
                         {users.map((user) => (
                             <tr key={user.Email}>
-                                <td>{user.Name}</td>
-                                <td>{user.Email}</td>
-                                <td>{user.Age}</td>
+                                <td>{user.name}</td>
+                                <td>{user.email}</td>
+                                <td>{user.age}</td>
                                 <td className="d-flex gap-3">
                                     <Link to={`/update/${user.Email}`} className="btn btn-success">
                                         Update
