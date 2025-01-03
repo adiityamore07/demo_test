@@ -12,8 +12,8 @@ mongoose.connect("mongodb://127.0.0.1:27017/CRUD")
 console.log("database connected")
 
 app.get('/',(req,res)=>{
-    UserModel.fimd({})
-    .then(Users=>res.json(User))
+    UserModel.find({})
+    .then(Users=>res.json(Users))
     .catch(err=>res.json(err))
 })
 

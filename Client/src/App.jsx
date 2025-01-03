@@ -3,7 +3,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CreateUser from './CreateUser';
 import UpdateUser from './UpdateUser';
-import User from './User';
+import User from './Users';
 
 function App() {
   
