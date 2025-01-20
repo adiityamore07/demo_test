@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+</head>
+<body style="background-color: black; color: white;">
+
+    <ul>
+        <li><img id="cat" src="08_events/IMG20211222140523.jpg" alt="Image"></li>
+    </ul>
+
+</body>
+<script>
+    //  document.getElementById('cat').onclick = function(){
+    //     alert('cat clicked')
+    //  }  
+
+
+
+ //attachEvent()
+    // JQuery - on
+
+
+
+    document.getElementById('cat').addEventListener('click',function(){
+        alert('cat clicked')
+     },false)
+ //BUBBLE event bottom up
+ //CAPTURING MODE top to bottom
+
+
+   //type,tiemstamp,defaultprevented
+   //target,toElement,srcElement,currentTarget,
+   //clientX,clientY,shiftkey,keycode
+
+
+
+                      
+</script>
+</html>
